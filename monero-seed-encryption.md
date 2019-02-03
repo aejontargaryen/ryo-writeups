@@ -12,7 +12,7 @@ https://github.com/monero-project/monero/blob/master/src/cryptonote_basic/crypto
 
 ### Why is it a problem?
 
-Adding a random number which represents the password to the paintext compromises any other ciphertext that shares the same password if a plaintext is ever revealed. In cryptographic parlance this is known as a key recovery attack.
+Adding a random number which represents the password to the plaintext compromises any other ciphertext that shares the same password if a plaintext is ever revealed. In cryptographic parlance this is known as a key recovery attack.
 
 ### How can it be fixed?
 
